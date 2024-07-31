@@ -1,0 +1,14 @@
+POST http://localhost:3001/api/client/create
+Content-Type: application/json
+
+{
+    "email":"nuevaera3@gmail.com",
+    "password":"0OwViH47",
+    "birthDate":"Fri May 09 2003",
+    "weight":80,
+    "size":170,
+    "gender":"female",
+    "userId":"6612a51fa44e6861db3b88d6"
+}
+###
+GET http://localhost:3001/api/user/6612a51fa44e6861db3b88d6

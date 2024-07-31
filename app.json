@@ -18,13 +18,25 @@
       "supportsTablet": true
     },
     "android": {
+      "versionCode": 2,  
+      "permissions": [
+        "android.permission.HIGH_SAMPLING_RATE_SENSORS"
+      ],
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.ferbassino.jump"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "d5ee0030-f06d-498e-9431-379cc3c96eba"
+      }
     }
+    
+    
   }
 }
